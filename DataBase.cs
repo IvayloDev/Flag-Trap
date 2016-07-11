@@ -11,8 +11,8 @@ public class DataBase : MonoBehaviour {
     [SerializeField]
     private Text forText, AgainstText;
 
-    private string serverURL = "http://rest.balanceshare.com/api/gamestatistics";
-    private string token = "41e42bb389c34259b7391dc5ef62f591";
+    private string serverURL = "...";
+    private string token = "...";
     private WWWForm form;
 
     [Serializable]
